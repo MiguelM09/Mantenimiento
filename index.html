@@ -6,10 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="html/tablas.html">IR A TABLAS</a></li>
-        <li><a href="html/estilos.html">IR A ESTILOS</a></li>
-        <li><a href="html/flexblox.html">IR A FLEXBLOX</a></li>
-    </ul>
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+                <img src="https://img.freepik.com/vector-gratis/lindo-astronauta-flotando-globo-planeta-ilustracion-icono-vector-dibujos-animados-espacio-concepto-icono-ciencia-tecnologia-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3850.jpg" alt="Astronauta" class="login">
+                <h1>INICIAR SESIÓN</h1>
+            </div>
+            <!-- .text_field>label{Email}+input#email+img -->
+            <div class="text_field">
+                <label for="">Email</label>
+                <input type="email" 
+                id="email" 
+                name="email" 
+                aria-label="Email" 
+                placeholder="Ingrese su correo electrónico" required>
+                <img src="" alt="">
+            </div>
+            <div class="text_field">
+                <label for="">Password</label>
+                <input 
+                type="text" 
+                id="Password"
+                name="Password"
+                placeholder="Ingrese su contraseña" required>
+                <img src="" alt="">
+            </div>
+                <input type="submit" class="my_form_button" value="login">
+                <div class="my_form_actions">
+                    <div class="my_form">
+                        <span>Olvidaste tu contraseña</span>
+                        <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                    </div>
+                    <div class="my_form_signup">
+                        <a href="#" title="create acount">Crear cuenta</a>
+                    </div>
+                </div>
+        </form>
+    </div>
 </body>
 </html>
